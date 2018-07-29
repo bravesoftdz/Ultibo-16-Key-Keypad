@@ -54,6 +54,7 @@ begin
     myGLCD.SetFont(SmallFont);
     myGLCD.ClrScr();
     myGLCD.Print('4x4 Keypad', CENTER, 0);
+    myGLCD.Print('->', LEFT, 15);
     myGLCD.Update();
   except
     on E: Exception do
@@ -179,9 +180,9 @@ begin
     c := GetKey();
 
     if c <> #0 then
-      myGLCD.Print('-> ' + c, LEFT, 10)
-    else
-      myGLCD.Print('->  ', LEFT, 10);
+      myGLCD.Print('-> ' + c, LEFT, 15);
+    //else
+    //  myGLCD.Print('->  ', LEFT, 15);
 
     myGLCD.Update();
   except
