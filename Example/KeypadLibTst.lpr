@@ -22,7 +22,7 @@ uses
   LCD5110_Graph,
   LCD_Graphics,
   DefaultFonts,
-  KeyPadlib;
+  KeypadLib;
 
 const
   Keys: array [0..15] of Char =
