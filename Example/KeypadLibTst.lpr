@@ -21,7 +21,8 @@ uses
   Console,
   LCD5110_Graph,
   LCD_Graphics,
-  DefaultFonts, KeyPadLib;
+  DefaultFonts,
+  KeyPadlib;
 
 const
   Keys: array [0..15] of Char =
