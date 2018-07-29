@@ -1,4 +1,4 @@
-unit KeyPadLib;
+unit KeypadLib;
 
 {$mode objfpc}{$H+}
 
