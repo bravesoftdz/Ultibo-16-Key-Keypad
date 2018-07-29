@@ -60,7 +60,7 @@ begin
     on E: Exception do
     begin
       myGLCD := nil;
-      ConsoleWindowWriteLn(Handle, 'Setup() error 1 : ' + E.Message);
+      ConsoleWindowWriteLn(Handle, 'Setup() error: ' + E.Message);
       Exit;
     end;
   end;
