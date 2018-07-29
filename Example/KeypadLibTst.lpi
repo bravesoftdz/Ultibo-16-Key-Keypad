@@ -49,7 +49,7 @@
         <IsPartOfProject Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="../KeyPadLib.pas"/>
+        <Filename Value="../KeypadLib.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
     </Units>
